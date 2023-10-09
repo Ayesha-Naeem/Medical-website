@@ -1,0 +1,641 @@
+body{
+    padding:0;
+    margin: 0;
+    font-family: 'Saira Condensed', sans-serif;
+    
+}
+section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.bg-img{
+    width: 100%;
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(125, 141, 153, 0.8),rgba(134,151,163,0.8)),url(../images/bg-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    
+  
+}
+.navbar{
+    height: auto;
+    width: 100%;
+   
+}
+
+
+.navbar .navbar-brand img{
+    height: 70px;
+    width: 100%;
+
+}
+
+.navbar .search1,.search2{
+    color: white;
+    padding:auto 0px;
+
+}
+.navbar .nav-item{
+        margin: 0 10px;
+        font-family: 'Barlow', sans-serif;
+
+}
+.navbar-nav .nav-item .nav-link {
+    color: white;
+    font-weight: bold;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: black;
+}
+.custom-bg-dark{
+    background-color:#0a50a0 !important;
+}
+.intro{
+    color: white;
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ; */
+}
+.C_hr{
+    margin-top: 25px;
+    border: 3px solid #ffffff;
+    
+    width: 10%;
+    transition: 0.3s;
+}
+.intro h2{
+  font-weight: bolder;
+    font-size: 40px;
+}
+.intro p{
+    margin: 50px 0;
+    font-size: 20px;
+}
+.intro .btn{
+    background-color: #0a50a0;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 30px;
+
+}
+.intro .btn:hover{
+    background-color: #04325b;
+
+}
+
+
+
+
+.content {
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+form input{
+    padding: 0!important;
+    margin-bottom: 30px;
+    border: 1px solid rgb(28, 27, 27) !important;
+    border-radius: 3px !important;
+    outline: none;
+}
+form legend{
+    font-weight: bold;
+    /* font-family: 'Barlow', sans-serif; */
+    font-size: 38px;
+    color: #0a50a0;
+}
+form p{
+    color: #2662a7;
+    font-size: 18px;
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-weight: normal;
+}
+.send{
+    width: 100%;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0a50a0;
+    border-radius: 3px !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 30px !important;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.send:hover{
+    background-color: #04325b;
+    color: white;
+}
+.about{
+    width: 100%;
+    min-height: 100vh;
+}
+.bg-2-img{
+   background-image: linear-gradient(rgba(255,255,255,0.8),rgba(255,255,255,0.8)),url("../images/bg-3-4.png"); 
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: 88.8%;
+}
+
+.cell{
+ 
+    height: 350px;
+    
+}
+.cell-1{
+    background-image: linear-gradient(rgba(10,80,160, 0.7),rgba(10,80,160, 0.7)),url(../images/ecg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cell-2{
+    background-image: linear-gradient(rgba(10,80,160, 0.7),rgba(10,80,160, 0.7)),url(../images/wires.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cell-3{
+    background-image: linear-gradient(rgba(10,80,160, 0.7),rgba(10,80,160, 0.7)),url(../images/circuits.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}.cell-4{
+    background-image: linear-gradient(rgba(10,80,160, 0.7),rgba(10,80,160, 0.7)),url(../images/book.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cell .inner{
+    
+    padding:100px 40px 20px 20px;
+}
+.inner p{
+    font-weight: bolder;
+    color: #ffffff;
+    font-size: 28px;
+    margin-top: 20px;
+
+}
+.icon{
+    width: 80px;
+    height: 80px;
+}
+.content-2-p{
+    font-size: 24px;
+    color: #3ca5fe;
+    margin-bottom: 0;
+}
+.about h2{
+    font-weight: bolder;
+    font-size: 46px;
+    color: #0a50a0;  
+}
+.content-text{
+    color: #487396;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+.Resources{
+    width: 100%;
+    min-height:100vh ;
+    background-color: #f7fbfd;
+    color: #0d386a;
+}
+.Resources .RHeading h2{
+    font-weight: bolder;
+    font-size: 48px;
+   
+}
+.Resources .RHeading .R_hr{
+    
+  
+    margin-top: 25px ;
+    border: 3px solid #0a50a0;
+  
+    width: 10%;
+    transition: 0.3s;
+}
+.ResPara{
+    font-size: 20px;  
+}
+.card-part{
+    margin-top: 50px;
+}
+.card{
+    border: none;
+    border-radius: 0 !important;
+    box-shadow: 4px 6px 8px #a3a2a2;
+    /* height: 300px; */
+   
+}
+.card-img-top{
+    border-radius: 0 !important;
+}
+
+
+  
+.card-body{
+     color:#0c3d76;
+}
+.card-title{
+    font-weight:bolder;
+    font-size: 28px;
+}
+.card-btn{
+    color:white;
+    background-color: #063b79;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 20px 0;
+}
+.EMC_Certi{
+ 
+    width: 100%;
+    min-height: 80vh;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.3),rgba(255, 255, 255, 0.3)),url(../images/bg-4.jpg);
+    background-image: cover;
+    background-repeat: no-repeat;
+    background-position: 50.8%;
+}
+.List_Certi{
+    background-color: white;
+    color: #0a4487;
+    margin: 0 200px 0 50px;
+}
+.List_Certi h2{
+    font-weight: bolder;
+    font-size: 46px;
+    color: #063b79; 
+}
+.diamond-list {
+      list-style: none;
+      padding: 0;
+    }
+
+ .diamond-list li::before {
+      content: "◆"; /* Diamond shape using a unicode character */
+      margin-right: 5px; /* Adjust spacing between the diamond and text */
+      font-size: 1.2em; /* Adjust the size of the diamond */
+      color: #0a50a0; /* Adjust the color of the diamond */
+ }
+ .diamond-list li{
+    font-size: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+ }
+ .List_Certi p{
+    
+    font-size: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.partners{
+    width: 100%;
+    min-height: 50vh;
+    color: #0c3f79;
+}
+.partners .pHeading h2{
+    font-weight: bolder;
+    font-size: 48px;
+   
+}
+.partners .pHeading .p_hr{
+    
+  
+    margin-top: 25px ;
+    border: 3px solid #0a50a0;
+  
+    width: 10%;
+    transition: 0.3s;
+}
+.slick-slide{
+    margin: 0 20px;
+}
+.slick-slide img{
+    width: 100%;
+    height: 100%;
+}
+.slick-slider{
+   position: relative; 
+   display: block;
+   box-sizing: border-box;
+}
+.slick-list{
+     position: relative;
+     display: block;
+     overflow: hidden;
+     margin: 0;
+     padding: 0;
+}
+.slick-track{
+    position: relative;
+    top:0;
+    left: 0;
+    display: block
+}
+.slick-slide{
+    display: none;
+    float: left;
+    height: 120px;
+    min-height: 1px;
+     border: 1px solid #cbcbcc;
+}
+.slick-slide img{
+    display: block;
+    
+}
+.slick-initialized .slick-slide{
+    display: block;
+}
+
+
+
+.Services{
+    width: 100%;
+    min-height:100vh ;
+    background-color: #f7fbfd;
+    color: #103e72;
+}
+.Services .SHeading h2{
+    font-weight: bolder;
+    font-size: 48px;
+   
+}
+.Services .SHeading .S_hr{
+    
+  
+    margin-top: 25px ;
+    border: 3px solid #0a50a0;
+  
+    width: 10%;
+    transition: 0.3s;
+}
+.Services .image h2{
+    font-weight: bolder;
+    font-size: 36px;
+   
+}
+.Services .size{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    height: 250px;
+    background-color: white;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.6);
+    
+}
+
+.Services .size img {
+    width: 100%; /* Make the image fill the width of the .size div */
+    height: 100%; /* Make the image fill the height of the .size div */
+    object-fit: cover; /* Maintain the aspect ratio and cover the entire .size div */
+    background-position: 88,8%;
+}
+.contact{
+    width: 100%;
+    min-height: 70vh;
+    background-image: linear-gradient(rgba(10,80,160, 0.8),rgba(10,80,160, 0.8)),url(../images/contact.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 20%;
+    color: #ffffff;
+ 
+}
+.contact .p_cont{
+    font-size: 2.8em;
+    padding: 0;
+    margin: 0;
+}
+.contact .contact_p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.6em;
+    font-weight: bolder;
+    margin: 20px  0;
+}
+.appoint{
+    width: 100%;
+    min-height: 80vh;
+    padding-bottom: 0;
+}
+.appoint .appoint-img img{
+     width: 100%; /* Make the image fill the width of the .size div */
+    height: 100%; /* Make the image fill the height of the .size div */
+    object-fit: cover; /* Maintain the aspect ratio and cover the entire .size div */
+}
+
+.appoint .form {
+    padding: 0 200px 0 20px; /* Adjust the padding as needed */
+}
+.appoint .form legend{
+    font-weight: bolder;
+    font-size: 48px;
+    color: #073b77;
+}
+.appoint form textarea{
+     border: 1px solid rgb(28, 27, 27) !important;
+    border-radius: 3px !important;
+    outline: none !important;
+    height: auto !important;
+}
+.footer{
+    width: 100%;
+    min-height: 65vh;
+    background-image: linear-gradient(rgba(10,80,160, 0.8),rgba(10,80,160, 0.8)),url(../images/bg-5-3.jpg);
+       background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 20%;
+    color: #ffffff;
+    padding-bottom: 0;
+    
+ 
+}
+
+section.footer{
+    margin-bottom: 0;
+}
+.footer h5{
+    font-weight: bolder;
+    font-size: 36px;
+    margin-bottom: 1em;
+}
+.f-list {
+      list-style: none;
+      padding: 0;
+    }
+
+ .f-list li::before {
+      content: "⏵"; 
+      margin-right: 5px; 
+      font-size: 1.2em; 
+      color: #ffffff; 
+ }
+ .f-list li a{
+    color: #ffffff;
+    font-size: 18px;
+    
+ }
+ .footer p{
+    font-size: 18px;
+ }
+ .footer .copyRight{
+    background-color: #0a50a0;
+ }
+.cell-1{
+        margin-bottom: 25px;
+    }
+
+
+
+
+
+
+ 
+
+
+/* Media Queries */
+@media (max-width:1200px){
+    .navbar .nav-item{
+        margin: 0;
+     }
+     .navbar .search2,.search1{
+        display: none;
+     }
+     
+
+}
+@media (max-width:768px){
+    .intro{
+        text-align: center;
+    }
+    .C_hr{
+        margin: auto;
+    }
+    .intro .btn{
+            margin-bottom: 100px;
+    }
+    .intro h2{
+        font-size: 32px !important;
+    }
+  
+    .card{
+        margin-bottom: 20px;
+    }
+    .EMC_Certi .row{
+        justify-content: center;
+    
+    }
+    .EMC_Certi .col-md-5{
+        margin: 0;
+    }
+    .contact{
+        min-height: 30vh;
+    }
+    .contact .p_cont{
+    font-size: 1.2em;
+    }
+ 
+    .contact .contact_p{
+        font-size: 2em;
+    }
+    .appoint .img-block{
+        display: none;
+    }
+    .appoint .form{
+        margin: 0;
+        padding: 0;
+        padding: 0 40px 0 40px;
+        margin-bottom: 100px;
+    }
+    .intro{
+        padding-right: 0;
+    }
+    .cell-1{
+        margin-bottom: 0;
+    }
+   
+    
+
+}
+  
+@media (max-width:1400px)  and (min-width:1200px) {
+    .content-2-p{
+    font-size: 20px;
+    color: #3ca5fe;
+    margin-bottom: 0;
+}
+.about h2{
+    font-weight: bolder;
+    font-size: 46px;
+    color: #0a50a0;  
+}
+.content-text{
+    color: #487396;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+}
+}
+@media (max-width:991px){
+    .content-2-p{
+    font-size: 20px;
+    color: #3ca5fe;
+    margin-bottom: 0;
+}
+.about h2{
+    font-weight: bolder;
+    font-size: 46px;
+    color: #0a50a0;  
+}
+.content-text{
+    color: #487396;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+}
+}
+@media (max-width: 650px) {
+  .navbar .nav-item {
+    margin: 0 5px; /* Adjust the margin */
+  }
+  .navbar .search1, .search2 {
+    display: none;
+  }
+}
+@media (max-width: 650px) {
+  .intro .btn {
+    margin-bottom: 20px; /* Adjust the margin */
+  }
+}
+@media (max-width: 600px) {
+  /* Adjust padding and margins to reduce extra space */
+
+  /* Reduce padding in intro section */
+  .intro {
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Adjust padding and margins for the form */
+  .form {
+    padding: 20px;
+  }
+
+  /* Adjust margins for navbar items */
+  .navbar .nav-item {
+    margin: 0 5px;
+  }
+
+  /* Hide the search input on smaller screens */
+  .navbar input {
+    display: none;
+  }
+}
+@media (max-width:1400px){
+    .RF{
+        margin-bottom: 40px;
+
+    }
+
+}
+
+
